@@ -1,0 +1,9 @@
+/*General Style */
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+/*When completed, add a strike through the task*/
+.completed {
+  text-decoration: line-through;
+}
