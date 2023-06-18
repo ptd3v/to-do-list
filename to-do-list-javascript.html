@@ -1,13 +1,37 @@
 <!DOCTYPE html>
+<!-- This file contains excessive comments to show my understanding -->
 <html>
+
+<!-- Start Header. The storage area for metadata such as analytics and page descriptions. -->
 <head>
-  <title>My HTML File</title>
+
+  <!-- Title Tag, use this to change the header of the page -->
+  <title>To-Do App</title>
+
+  <!-- Link to an external stylesheet, contained in the same directory -->
   <link rel="stylesheet" href="style.css">
+
+<!-- End Header -->
 </head>
+
+<!-- Start Body. The visible area of the website to users. -->
 <body>
-  Hello, welcome to my to-do list app!
-  <!-- Your HTML content here -->
-  
+
+  <!-- Header Tag, ideal for main title of pages. -->
+  <h1>To-Do App</h1>
+
+  <!-- Create an text input called 'taskinput'-->
+  <input type="text" id="taskInput" placeholder="Enter a task">
+
+  <!-- Create a button under this text box, when clicked, the function 'addtask' is run -->
+  <button onclick="addTask()">Add Task</button>
+
+  <!-- This is the user list area, used to store tasks entered from the text box input -->
+  <ul id="todo-list"></ul>
+
+  <!-- Calling the external JavaScript script which contains the functions mentioned above -->
   <script src="script.js"></script>
+
+<!-- End the main body of visible content and the HTML document itself -->
 </body>
 </html>
