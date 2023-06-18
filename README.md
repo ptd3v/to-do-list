@@ -1,4 +1,4 @@
-# to-do-list-javascript
+# to-do-list
 A simple to do list I created to get some fresh experience with JavaScript.
 
 You can add a task by writing in the text box and pressing the 'Add Task' button.
